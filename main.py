@@ -16,7 +16,7 @@ def download_file(url):
     with open(filename, 'wb') as f:
         for data in response.iter_content(block_size):
             progress_bar.update(len(data))
-            f.write(data)
+            f.write(data) 
     progress_bar.close()
     return filename
 
