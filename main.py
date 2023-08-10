@@ -3,7 +3,7 @@ import os
 from telegram.ext import Updater, MessageHandler, Filters
 from tqdm import tqdm
 
-TOKEN = '6115652609:AAFEH_kdSQzscIVCQmT7DCUtDiM-jhPVgFI'
+TOKEN = 'YOUR_TOKEN'
 CHAT_ID = '@WebTeGram'
 
 
