@@ -4,7 +4,7 @@ from telegram.ext import Updater, MessageHandler, Filters
 from tqdm import tqdm
 
 TOKEN = 'INPUT_YOUR_TOKEN_HERE'
-CHAT_ID = 'YOUR_Telegram_chat_id'
+CHAT_ID = 'YOUR_Telegram_Chat_id'
 
 
 def download_file(url):
